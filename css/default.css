@@ -1,0 +1,271 @@
+/* All CSS styles go here */
+
+@font-face{
+	font-family: circle;
+	src:url('../fonts/circle.otf')  ;
+}
+
+@font-face{
+	font-family: light;
+	src:url('../fonts/light.ttf')  ;
+}
+
+body {
+	background: #fbb03b;
+}
+
+@-webkit-keyframes body {
+	0% {background-color:#fbb03b;}
+	100% {background-color:#111219;}
+
+}
+
+body { -webkit-animation:body 9s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+.head{
+	font-family: circle, helvetica;
+	font-size: 15em;
+	letter-spacing: .07em;
+	text-align: center;
+	color: white;
+	height: 750px;
+	position: absolute;
+	top: 100px;
+	font-style: bold;
+}
+
+
+.mini{
+	color:#4b54bf;
+	position: relative;
+	text-align: center;
+	margin-top:300px;
+	letter-spacing: 1em;
+	font-family: helvetica; 
+	font-weight: bold;
+	top: 350px;
+}
+
+@-webkit-keyframes mini{
+	0%{opacity: 0;}
+	100%{opacity:100;}
+}
+
+.mini { -webkit-animation:mini 5s;
+		}
+
+.two{
+	font-family: circle, helvetica;
+	font-size: 15em;
+	letter-spacing: .07em;
+	text-align: center;
+	color: #4b54bf;
+	position:absolute;
+	height: 200px;
+	top:100px;
+	left:1600px;
+}
+
+@-webkit-keyframes two{
+	0%{left:1600px; opacity:0%;}
+	100%{left:0px; opacity: 100%; }
+}
+
+.two{ -webkit-animation:two 9s;
+-webkit-animation-fill-mode: forwards;
+}
+
+
+
+.year { 
+	position: relative;
+	margin-left: 100px;
+	margin-top: 500px;
+	font-family: circle, helvetica;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 2px;
+
+}
+
+
+.first{
+
+	width: 400px;
+	margin-left: 100px;
+	font-family: circle;
+	margin-top: 10px;
+	color: white;
+	font-family: light;
+	
+}
+
+
+.event{
+	position: relative;
+	margin-left: 1000px;
+	margin-top: -150px;
+	font-family: circle;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 2px;
+
+}
+
+.below {
+	width: 350px;
+	margin-left: 125px;
+	font-family: circle;
+	margin-top: 15px;
+	color: white;
+	font-family: light;
+
+}
+
+.aug {
+	position: relative;
+	text-align: right;
+	margin-left: 930px;
+	margin-top: 10px;
+	color: white;
+	width: 400px;
+	font-family: light;
+}
+
+.aug2 {
+	position: relative;
+	text-align: right;
+	margin-left: 930px;
+	margin-top: 15px;
+	color: white;
+	width: 400px;
+	font-family: light;
+	padding-bottom: 20px;
+}
+
+.box { 
+	height: 20px;
+position: relative;
+
+}
+
+.sun {
+	position: relative;
+	top: -350px;
+	left: 820px;
+
+}
+
+
+@-webkit-keyframes rotate {
+	0% { -webkit-transform: rotate(0deg);}
+	100% { -webkit-transform: rotate(180deg);}
+}
+
+.sun{-webkit-animation:rotate 7s infinite; }
+
+.sun2{
+	position: relative;
+	top: -100px;
+	left:400px;
+}
+
+@-webkit-keyframes rotate {
+	100% {-webkit-transform: rotate(360deg);}
+}
+
+.sun2 {-webkit-animation:rotate 7s infinite;}
+
+.dot { 
+	position: relative;
+	top:-100px;
+	left:50px;
+}
+
+.dot2{
+	position: relative;
+	top:-300px;
+	left: 500px;
+}
+
+.dot3{
+	position: relative;
+	top: -140px;
+	left: 200px;
+}
+
+.dot4{
+	position: relative;
+	top: -150px;
+	left: 500px;
+}
+
+.dot5{
+	top:-150px;
+	left:700px;
+	padding-left: 700px;
+	padding-bottom: 75px;
+}
+
+.dot6{
+	position: relative;
+	top: -450px;
+	left: -100px;
+}
+
+.dot7{
+	position: relative;
+	top: -200px;
+	left: -50px;
+}
+
+.dot8{
+	position: relative;
+	top:-500px;
+	left: 100px;
+}
+
+.dot9{
+	position: relative;
+	top:-400px;
+	left: 250px;
+}
+
+.dot10{
+	position: relative;
+	top:-525px;
+	left: 300px;
+}
+
+.dot11{
+	position: relative;
+	top:-50px;
+	left:-500px; 
+
+}
+
+.dot12{
+	position: relative;
+	top:-20px;
+	left: 150px;
+}
+
+.dot13{
+	position: relative;
+	top:-60px;
+	left: 300px;
+}
+
+.dot14{
+	position: relative;
+	top: -525px;
+	left: -800px;
+}
+
+.dot15{
+	position: relative;
+	top: -500px;
+	left: -575px;
+}
